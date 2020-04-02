@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,700&display=swap" rel="stylesheet">
+    <title>Profile Page</title>
+  </head>
+  <body>
+      
+    <div class="container main-page border-r">
+        <div class="row">
+            <div class="col-4 left-panel border-r ">
+                <div class="logo text-center border-r">
+                    <button class="btn text-center" href="#"><img width="50" src="./assets/img/logo.png">CompanyName</button>
+                </div>
+                <div class="user text-center border-r">
+                    <div class="user-avatar">
+                        <img width="120" class="rounded-circle" src="assets/img/avatar.png">
+                    </div>
+                    <div class="user-name">Abram Lin</div>
+                    <div class="user-bio">
+                        <a>#Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit posuere nulla eu finibus...</a>
+                    </div>
+                </div>
+                <div class="user-nav text-center">
+                    <div class="btn-group-vertical">
+                         <button type="button" class="btn"><i class="fas fa-clipboard"></i> Dashboord</button>
+                         <button type="button" class="btn"><i class="fas fa-eye"></i> Cost</button>
+                         <button type="button" class="btn"><i class="fas fa-compass"></i> Applionces</button>
+                         <button type="button" class="btn"><i class="fab fa-affiliatetheme"></i> Emmisions</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8 main-content">
+                <div class="col-12">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-6 content-header text-left">New topics</div>
+                        <div class="col-6 text-right">
+                            <button style="background-color: #e9747d; color: #ffffff; " type="button" class="btn">
+                                <i class="fas fa-sign-out-alt"></i> Log out
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                <div class="row">
+                    <div class="col-6 text-left"><a style="font-weight: bold; font-size: 150%;">Cost: </a><a style="color:#a0a0a0; font-size: 140%">This Month</a></div>
+                    <div class="col-6 text-right"><a class="more-btn">...</a></div>
+                </div>
+                <canvas id="canvas" height="100"></canvas>
+                </div>
+                <div class="col-12 row justify-content-center align-items-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block">
+                        <div class="block-content">
+                        <div class="block-header">
+                                <div class="row">
+                                    <div class="col-6 text-left header-text">Messages</div>
+                                    <div class="col-6 text-right"><a class="more-btn">...</a></div>
+                                </div>
+                            </div>
+                        <div class="messages">
+                            <canvas id="doughnut-chart"></canvas>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 block">
+                        <div class="block-content">
+                        <div class="block-header">
+                                <div class="row">
+                                    <div class="col-6 text-left header-text">Stat</div>
+                                    <div class="col-6 text-right"><a class="more-btn">...</a></div>
+                                </div>
+                            </div>
+                        <canvas id="radar-chart"></canvas>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 block">
+                            <div class="block-content">
+                            <div class="block-header">
+                                <div class="row">
+                                    <div class="col-6 text-left header-text">Activity</div>
+                                    <div class="col-6 text-right"><a class="more-btn">...</a></div>
+                                </div>
+                            </div>
+                            <div class="progress-lines">
+                                <div class="criterion">
+                                    <a>criterion #1</a>
+                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="criterion">
+                                    <a>criterion #2</a>
+                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="criterion">
+                                    <a>criterion #3</a>
+                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="criterion">
+                                    <a>criterion #4</a>
+                                    <div class="progress">
+                                      <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                            <div class="row">
+                                <div class="col-6 text-center">
+                                    <div class="stat border-r stat-block">
+                                        <div class="stat-block-text">Predicted <br> this month</div>
+                                        <div class="stat-block-cost"><i style="font-size: 55%; bottom: 3px; position: relative;" class="fas fa-dollar-sign"></i> 229</div>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <div class="stat border-r stat-block">
+                                        <div class="stat-block-text">Estimated<br>Savings</div>
+                                        <div class="stat-block-cost"><i style="font-size: 55%; bottom: 3px; position: relative;" class="fas fa-dollar-sign"></i> 16</div>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <div class="stat border-r stat-block">
+                                        <div class="stat-block-text">This<br>Month</div>
+                                        <div class="stat-block-cost"><i style="font-size: 55%; bottom: 3px; position: relative;" class="fas fa-dollar-sign"></i> 210</div>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-center">
+                                    <div class="stat border-r stat-block">
+                                        <div class="stat-block-text">So for this <br> Month</div>
+                                        <div class="stat-block-cost"><i style="font-size: 55%; bottom: 3px; position: relative;" class="fas fa-dollar-sign"></i> 111.5</div>
+                                    </div>
+                                </div>
+                            
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/chart/Chart.bundle.min.js"></script>
+    <script src="assets/chart/Chart.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script>
+new Chart(document.getElementById("canvas"), {
+    type: 'bar',
+    data: {
+      labels: ["#1", "#2", "#3", "#4", "#5"],
+      datasets: [
+        {
+          label: "Population (millions)",
+          backgroundColor: ["#c5e1ed", "#654f98","#c5e1ed","#654f98","#c5e1ed"],
+          data: [1478,3267,734,784,433]
+        }
+      ]
+    },
+    options: {
+      legend: { display: false },
+    }
+});		
+</script>
+<script>
+new Chart(document.getElementById("radar-chart"), {
+    type: 'radar',
+    data: {
+      labels: ["#1", "#2", "#3", "#4", "#5"],
+      datasets: [
+        {
+          label: "1950",
+          fill: true,
+          backgroundColor: "rgba(179,181,198,0.2)",
+          borderColor: "rgba(179,181,198,1)",
+          pointBorderColor: "#fff",
+          pointBackgroundColor: "rgba(179,181,198,1)",
+          data: [60.77,55.61,21.69,6.62,6.82]
+        }, {
+          label: "2050",
+          fill: true,
+          backgroundColor: "rgba(255,99,132,0.2)",
+          borderColor: "rgba(255,99,132,1)",
+          pointBorderColor: "#fff",
+          pointBackgroundColor: "rgba(255,99,132,1)",
+          pointBorderColor: "#fff",
+          data: [50.48,70.16,50.61,30.06,20.45]
+        }
+      ]
+    },
+    options: {
+      legend: { 
+          display: false
+      },
+    }
+});
+</script>
+<script>
+new Chart(document.getElementById("doughnut-chart"), {
+    type: 'doughnut',
+    data: {
+      labels: ["#1", "#2"],
+      datasets: [
+        {
+          label: "Population (millions)",
+          backgroundColor: ["#654f98", "#c5e1ed"],
+          data: [2478,433]
+        }
+      ]
+    }
+});
+</script> 

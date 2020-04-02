@@ -1,0 +1,99 @@
+*{
+    font-family: 'Baloo Thambi 2', cursive;
+}
+html{
+    background-color: #e9ecf1;
+}
+body{
+    background-color: #e9ecf1;
+    margin: 0 auto;
+    padding: 0;
+}
+.btn{
+    margin-bottom: 5px;
+    color: #777777;
+    font-size: 90%;
+    font-weight: bold;
+    text-align: left;
+}
+.border-r{
+    border-radius: 10px;
+}
+.main-content{
+    padding: 10px;
+}
+.main-page{
+    padding: 10px 25px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content-header{
+    font-weight: bold;
+    font-size: 180%;
+}
+.left-panel{
+    background-color: #f6f6f8;
+    padding: 10px;
+}
+.logo{
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.user{
+    margin-top: 15px; 
+    padding: 10px;
+    background-color: #ffffff;
+}
+.user-name{
+    font-weight: bold;
+}
+.user-nav{
+    margin-top: 10px;
+}
+.user-bio{
+    font-size: 80%;
+    color: #777777;
+}
+.block{
+    margin-bottom: 25px;
+}
+.block-content{
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #efefef;
+}
+.block-header{
+    font-weight: bold;
+}
+.header-text{
+    font-size: 140%;
+}
+.stat{
+    margin-bottom: 25px;
+    background-color: #f6f6f8;
+}
+.stat-block{
+    padding: 10px;
+}
+.stat-block-text{
+    font-size: 80%;
+    color: #888888;
+}
+.stat-block-cost{
+    font-size: 130%;
+    font-weight: bold;
+}
+.criterion{
+    color: #777777;
+    margin-bottom: 5px;
+}
+.progress-bar{
+    background-color: #d9e1ba;
+}
+.more-btn{
+    font-size: 150%;
+    font-weight: bold;
+}
